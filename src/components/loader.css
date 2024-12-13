@@ -1,0 +1,27 @@
+/* body{
+    display: grid;
+    place-items: center;
+    
+} */
+
+.loader{
+    width:100%;
+    display: grid;
+    place-items: center;
+    margin: 50px 0;
+}
+.circle{
+    width:50px;
+    height:50px;
+    border:3px solid gainsboro;
+    border-radius: 50%;
+    border-right-color: #810e3a;
+    animation: spin .6s ease infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

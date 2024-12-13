@@ -1,0 +1,39 @@
+.footer {
+  background-color: #68072c;
+  color: #cdd8c0;
+  display: grid;
+  place-items: center;
+
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+.icons,
+.footer-details li,
+.copyrights {
+  margin: 12px 0px;
+}
+
+.icons i {
+  margin-right: 15px;
+  transition: 0.3s linear;
+}
+.icons i:hover {
+  font-size: 18px;
+  color: #e9f5db;
+}
+.footer-details li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-details li p {
+  transition: 0.3s linear;
+}
+
+.footer-details li p:hover {
+  font-size: 18px;
+  color: #e9f5db;
+}
+.copyrights p {
+  font-size: 12px;
+}

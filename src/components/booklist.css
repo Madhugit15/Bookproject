@@ -1,0 +1,122 @@
+.cover_image {
+  width: 140px;
+  height: 220px;
+  padding-top: 15px;
+}
+.cover_image img {
+  width: 100%;
+  height: 100%;
+}
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 180px;
+  min-height: 70vh;
+}
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 6px 1px #cb92a7;
+  /* background-color: #d9abab; */
+  background-color: #e2a2b9;
+  border-radius: 5px;
+  width: 170px;
+  height: 300px;
+  transition: 0.5s ease-in;
+}
+.books:hover {
+  background-color: #cb92a7;
+  cursor: pointer;
+}
+h2 {
+  color: #810e3a;
+  margin-top: 50px;
+
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 22px;
+
+  letter-spacing: 1px;
+  text-align: center;
+}
+.book_details {
+  text-align: center;
+  /* padding: 8px; */
+  padding: 10px;
+}
+
+.booklist a {
+  text-decoration: none;
+}
+
+.bookname h3 {
+  font-weight: var(--fw3);
+  /* color: #810e3a; */
+  color: #68072c;
+  font-size: 15px;
+  padding: 5px 0px 10px 0px;
+  line-height: 20px;
+}
+@media screen and (max-width: 1176px) {
+  .booklist {
+    padding: 50px 120px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .booklist {
+    padding: 40px 90px;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .booklist {
+    padding: 40px 90px;
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 935px) {
+  .booklist {
+    padding: 40px 55px;
+  }
+}
+@media screen and (max-width: 687px) {
+  .booklist {
+    padding: 30px 40px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .booklist {
+    padding: 40px 30px;
+  }
+}
+
+
+@media screen and (max-width: 445px) {
+  .booklist {
+    padding: 30px;
+  }
+  .books {
+    width: 140px;
+    height: 270px;
+  }
+  .cover_image{
+    width:110px;
+    height:250px;
+  }
+  .bookname h3{
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .booklist {
+    padding: 20px 15px;
+  }
+}
